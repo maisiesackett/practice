@@ -1,0 +1,81 @@
+@import url(https://fonts.googleapis.com/css?family=Muli:500,700&display=swap);
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	margin: auto;
+	font-size: 20px;
+	font-family: 'Muli', 'Arial', sans-serif;
+	font-weight: 500;
+	line-height: 2em;
+	text-align: left;
+	color: #222;
+}
+
+header {
+	width: 100%;
+	float: left;
+}
+
+nav a{
+	text-transform: uppercase;
+	color: #222;
+	font-family: 'Muli', 'Arial', sans-serif;
+	letter-spacing: .5em;
+}
+
+h2 {
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #222;
+}
+
+h3 {
+	color: #fff;
+}
+
+a {
+	text-decoration: none;
+	color: #ff9d5c;
+	font-weight: bold;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+.donate {
+	display: inline-block;
+	text-transform: uppercase;
+	color: #fff;
+	background: #3eb449;
+	padding: .5em 1.5em;
+	margin: 1em 0;
+}
+
+#icon {
+	width: 4em;
+	float: left;
+}
+
+#donate-nav {
+	float: right;
+}
+
+#header-items {
+	background: url(images/wangama-walking.jpg);
+	background-size: cover;
+}
+
+#header-items img {
+	width: 30em;
+}
