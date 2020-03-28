@@ -23,25 +23,58 @@ header {
 
 nav a{
 	text-transform: uppercase;
+	margin: 1em;
 	color: #222;
-	font-family: 'Muli', 'Arial', sans-serif;
-	letter-spacing: .5em;
+}
+
+section {
+	width: 50em;
+	padding: 4em;
+	margin: auto;
+}
+
+footer {
+	background: #87ceeb;
+	padding: .5em;
+	margin: auto;
+}
+
+footer a {
+	color: #222;
+	text-transform: uppercase;
 }
 
 h2 {
+	font-size: 2em;
 	text-transform: uppercase;
 	font-weight: 700;
-	color: #222;
+	padding: 1em 0;
 }
 
 h3 {
 	color: #fff;
+	font-size: 1.5em;
+	font-weight: 500;
+	padding: 1em;
 }
 
 a {
 	text-decoration: none;
 	color: #ff9d5c;
-	font-weight: bold;
+	font-weight: 700;
+}
+
+form {
+	text-align: center;
+}
+
+input {
+	font-family: 'Muli', 'Arial', sans-serif;
+	font-size: 1em;
+}
+
+input[type="submit"] {
+	border: none;
 }
 
 .clearfix:after {
@@ -60,6 +93,38 @@ a {
 	background: #3eb449;
 	padding: .5em 1.5em;
 	margin: 1em 0;
+	width: 10em;
+	text-align: center;
+	box-shadow: 1.5px 1.5px 2px #222;
+}
+
+.donate:hover {
+	background-color: #3eb489;
+	box-shadow: 1.5px 1.5px 4px #222;
+}
+
+.btn {
+	display: inline-block;
+	text-transform: uppercase;
+	color: #fff;
+	background: #ff9d5c;
+	padding: .5em 1.5em;
+	margin: 1em 0;
+	width: 10em;
+	text-align: center;
+	box-shadow: 1.5px 1.5px 4px #222;
+}
+
+.btn:hover {
+	background-color: #ff7d5c;
+	box-shadow: 1.5px 1.5px 4px #222;
+}
+
+#nav-items {
+	letter-spacing: .25em;
+	margin: 1em;
+	display: inline-block;
+	vertical-align: middle;
 }
 
 #icon {
@@ -69,13 +134,61 @@ a {
 
 #donate-nav {
 	float: right;
+	margin: .5em 1em;
 }
 
 #header-items {
-	background: url(images/wangama-walking.jpg);
+	background: radial-gradient(rgba(245,235,220,.33),rgba(245,235,220,.33)), url(images/wangama-walking.jpg);
 	background-size: cover;
+	text-align: center;
+	width: 100%;
 }
 
 #header-items img {
 	width: 30em;
+	padding-top: 1em;
+}
+
+#donate {
+	color: #3eb449;
+}
+
+#multiple-items {
+	background-color: rgba(245,235,220,.5);
+	width: 90%;
+}
+
+#multiple-items div {
+	float: left;
+	width: 33%;
+	padding: .5em;
+}
+
+#yellow {
+	color: #ffcd73;
+}
+
+#blue {
+	color: #87ceeb;
+}
+
+#gallery {
+	width: 100%;
+}
+
+#gallery img {
+	width: 45%;
+}
+
+#join {
+	background: #ffed83;
+	width: 100%;
+}
+
+#social-icons {
+	float: right;
+}
+
+#social-icons img {
+	width: 1.5em;
 }

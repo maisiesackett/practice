@@ -2,19 +2,20 @@
 <html lang="en">
 <head>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
-	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<title>Wangama Foundation</title>
 </head>
 <body>
 	<header>
-		<a href="#"><img src="images/Wangama-icon-black.png" alt="wangama logo icon" title="wangama logo icon" id="icon"></a>
 		<nav>
-			<a href="#">About Us</a>
-			<a href="#">Health</a>
-			<a href="#">Education</a>
-			<a href="#">Environment</a>
+			<a href="#"><img src="images/Wangama-icon-black.png" alt="wangama logo icon" title="wangama logo icon" id="icon"></a>
+			<div id="nav-items">
+				<a href="#">About Us</a>
+				<a href="#">Health</a>
+				<a href="#">Education</a>
+				<a href="#">Environment</a>
+			</div>
+			<a href="#" class="donate" id="donate-nav">Donate</a>
 		</nav>
-		<a href="#" class="donate" id="donate-nav">Donate</a>
 	</header>
 	<section id="header-items">
 		<img src="images/Wangama-Logo-Horizontal.png">
@@ -25,7 +26,7 @@
 		<h2>What We Do</h2>
 		<p>Here at Wangama Foundation, we strive to build productive relationships with the people of Wangama and make a positive impact with all of our pursuits. Our vision is to empower the community by supporting health, education, and environment projects leading to a sustainable future. Wangama Foundation has a strong principle of working TOGETHER with village counterparts to reach our project goals.</p>
 	</section>
-	<section id="multiple-items">
+	<section class="clearfix" id="multiple-items">
 		<div>
 			<h2 id="donate">Donate</h2>
 			<p>Donations of all kinds are welcome! You can give monetary support for ongoing health, education, and environment projects, or donations of resources, such as school and medical supplies.</p>
@@ -42,6 +43,7 @@
 			<a href="#" class="btn">Learn More</a>
 	</section>
 	<section id="gallery">
+		<h2>Gallery</h2>
 		<img src="images/wangama-kids.jpg" alt="Students in Wangama" title="Wangama Students">
 		<img src="images/wangama-backpack.jpg" alt="Child Getting a Donated Backpack" title="Child Getting a Donated Backpack">
 		<img src="images/wangama-drums.jpg" alt="Drum Circle in Wangama" title="Drum Circle in Wangama">
@@ -59,12 +61,12 @@
 			<input type="submit" value="Sign Up" class="btn">
 		</form>
 	</section>
-	<footer>
-		<a href="mailto:wangama.foundation@gmail.com">wangama.foundation@gmail.com</a>
+	<footer class="clearfix">
 		<div id="social-icons">
 			<a href="#"><img src="images/instagram.png" alt="instgram" title="instagram"></a>
 			<a href="#"><img src="images/facebook.png" alt="facebook" title="facebook"></a>
 		</div>
+		<a href="mailto:wangama.foundation@gmail.com">wangama.foundation@gmail.com</a>
 	</footer>
 </body>
 </html>
